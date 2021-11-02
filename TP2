@@ -1,0 +1,241 @@
+﻿using System;
+
+namespace TP_iteratives
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*exercice 1
+            a = 12
+            b=-2
+
+            étape 1 :
+                x=0<5:
+                    a=0
+                    b=2
+                    x=2
+
+            étape 2 :
+                x=2<5
+                    a=4
+                    b=2
+                    x=4
+
+            étape 3 :
+                x=4<5
+                    a=8
+                    b=6
+                    x=6
+
+            étape 4 :
+                x=6>5
+                on sort de la boucle et s=14`*/
+
+
+
+
+
+            /*exercice 2
+            Console.WriteLine("MdP :");
+            string mdp = Console.ReadLine();
+            string res = "";
+            do
+            {
+                Console.WriteLine("mdp");
+                string res = Console.ReadLine();
+                if (res!="mdp")
+                {
+                    Console.WriteLine("mdp");
+                }
+            }
+            while (res != mdp);
+
+            Console.WriteLine("MdP :");
+            string mdp = Console.ReadLine();
+            string res = "";
+            int i = 1;
+            do
+            {
+                Console.WriteLine("mdp");
+                string res = Console.ReadLine();
+                if (res!="mdp")
+                {
+                    Console.WriteLine("mdp");
+                }
+                i = i + 1;
+            }
+            while ((res != mdp)&&(i<3));*/
+
+            /*exercice 3
+            //a
+
+            21 
+            21 est un nombre à deux chiffres. 
+            Entrer un autre nombre, 99999 pour finir. 
+            163
+            Entrer un autre nombre, 99999 pour finir. 
+            56
+            56 est un nombre à deux chiffres. 
+            Entrer un autre nombre, 99999 pour finir. 
+            99999
+            Fin de l’algorithme
+
+            //b
+            const int STOP = 99999;
+            int uneVal;
+            Console.WriteLine("Entrer un nombre, " + STOP + " pour finir. ");
+            uneVal = int.Parse(Console.ReadLine());
+            while (uneVal != STOP)//continuer tant que l'utilisateur ne souhaite pas s'arreter
+            {
+                if ((uneVal >= 10) && (uneVal < 100) ) //permet de savoir si le nombre est a 2 chiffres
+                    {
+                    Console.WriteLine(uneVal + " est un nombre à deux chiffres. ");
+                    }
+                Console.WriteLine("Entrer un autre nombre, " + STOP + " pour finir. ");//si ce n'est pas le cas demaner un autre nombre
+                uneVal = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Fin de l’algorithme ");
+
+
+            
+            //c) while est préférable à for car l'utilisateur peut s'arrêter quand il le souhaite et n'est pas limité par un nombre pédéfini de demande*/
+
+
+            //exercice 4
+            //a
+            /*Console.WriteLine("Entrez un nombre entier");
+            int Val = int.Parse(Console.ReadLine());
+            int fact = 1;
+            while (Val>0)
+            {
+                fact = fact*Val;
+                Val = Val - 1;
+            }
+            Console.WriteLine("La factorielle de " + Val + " est " + fact);*/
+
+
+            /*b
+            string reponse = "0" ;
+            do
+            {
+                Console.WriteLine("Tapez 1 si vous êtes étudiante ou 2 si vous êtes étudiant");
+                reponse = Console.ReadLine();
+            }
+            while ((reponse != "1") && (reponse != "2"));
+
+            //affichage du résultat
+            if (reponse=="1")
+            {
+                Console.WriteLine("Bonjour Mademoiselle");
+            }
+            else
+            {
+                Console.WriteLine("Bonjour Monsieur");
+            }*/
+
+            //c
+
+
+
+            // exercice 5
+            //1
+
+            /*Console.WriteLine("entier n");
+            int n = int.Parse(Console.ReadLine());
+            int tp = n;
+            int somme = 0;
+            while (n>0)
+            {
+                somme = somme + n;
+                n = n - 1;
+            }
+            Console.WriteLine("La somme des "+tp+" premiers entiers est " + somme);*/
+
+
+
+            /*Console.WriteLine("entier n");
+            int n = int.Parse(Console.ReadLine());
+            int somme = 0;
+            for (int i=0;i<=n;i=i+1)
+            {
+                somme = somme + i;
+            }
+            Console.WriteLine("La somme des " + n + " premiers entiers est " + somme);*/
+
+            //2
+            /*Console.Write("calcul de puissance entière de ");
+            Console.Write("x=");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write("puissance ");
+            Console.Write("n=");
+            int n = int.Parse(Console.ReadLine());
+            int conteur = n;
+            int res = 1;
+            while (conteur>0)
+            {
+                res = res * x;
+                conteur = conteur - 1;
+            }
+            Console.WriteLine("est égale à " + res);*/
+
+
+            /*Console.Write("calcul de puissance entière de ");
+            Console.Write("x=");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write("puissance ");
+            Console.Write("n=");
+            int n = int.Parse(Console.ReadLine());
+            int res = 1;
+            if (n==0)
+            {
+                Console.WriteLine("est égale à "+res);
+            }
+            else
+            {
+                for (int i = 1; i <= n; i = i + 1)
+                {
+                    res = res * x;
+                }
+                Console.WriteLine("est égale à " + res);
+            }*/
+
+            //4
+            Console.WriteLine("Calcul de l'exponentielle de exp(x) à seuil près :");
+            Console.Write("x = ");
+            float x = float.Parse(Console.ReadLine());
+            Console.Write("seuil = ");
+            float seuil = float.Parse(Console.ReadLine());
+            float res = 0;
+            int i = 0;
+            while(<seuil)
+            {
+                i = i + 1 ;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    }
+}
