@@ -1,0 +1,15 @@
+/Users/lesavand/Desktop/GenieLog/perso/bin/Debug/net5.0/perso.deps.json
+/Users/lesavand/Desktop/GenieLog/perso/bin/Debug/net5.0/perso.runtimeconfig.json
+/Users/lesavand/Desktop/GenieLog/perso/bin/Debug/net5.0/perso.runtimeconfig.dev.json
+/Users/lesavand/Desktop/GenieLog/perso/bin/Debug/net5.0/perso.dll
+/Users/lesavand/Desktop/GenieLog/perso/bin/Debug/net5.0/ref/perso.dll
+/Users/lesavand/Desktop/GenieLog/perso/bin/Debug/net5.0/perso.pdb
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/perso.csprojAssemblyReference.cache
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/perso.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/perso.AssemblyInfoInputs.cache
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/perso.AssemblyInfo.cs
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/perso.csproj.CoreCompileInputs.cache
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/perso.dll
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/ref/perso.dll
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/perso.pdb
+/Users/lesavand/Desktop/GenieLog/perso/obj/Debug/net5.0/perso.genruntimeconfig.cache
